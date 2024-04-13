@@ -1,11 +1,23 @@
-import { ActivityIndicator, Alert, Appearance, Button, StatusBar, View } from 'react-native';
+import {
+  ActivityIndicator,
+  Alert,
+  Appearance,
+  Button,
+  StatusBar,
+  View,
+} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { Provider } from 'react-redux';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { MenuProvider } from 'react-native-popup-menu';
 import { darkTheme, lightTheme } from './src/themes/theme.config';
 import { PaperProvider } from 'react-native-paper';
-import { persistor, store, useAppDispatch, useAppSelector } from './src/redux/storeAndStorage/persist';
+import {
+  persistor,
+  store,
+  useAppDispatch,
+  useAppSelector,
+} from './src/redux/storeAndStorage/persist';
 import { PersistGate } from 'redux-persist/integration/react';
 import React, { useCallback, useEffect, useState } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
@@ -43,8 +55,6 @@ const RootScreen = () => {
     return secondsUntilNextMinute * 1000; // Convert seconds to milliseconds
   }
 
-
-
   useEffect(() => {
     let notificationScheduled = false;
     let isEnabled: string | null = 'false';
@@ -65,12 +75,16 @@ const RootScreen = () => {
           importance: Importance.HIGH,
           vibrate: true,
         },
-        (created) => console.log(`Channel created: ${created}`)
+        created => console.log(`Channel created: ${created}`),
       );
 
       if (isEnabled === 'true') {
         // Schedule or cancel custom notifications based on the switch state
-        if (!notificationScheduled && currentHour === 11 && currentMinute === 24) {
+        if (
+          !notificationScheduled &&
+          currentHour === 11 &&
+          currentMinute === 24
+        ) {
           scheduleNotification("It's time to do something!");
           notificationScheduled = true;
         } else if (!notificationScheduled && currentHour === 7) {
@@ -109,8 +123,6 @@ const RootScreen = () => {
     };
   }, []); // Remove [isEnabled] from here
 
-
-
   // Function to schedule a notification
   const scheduleNotification = (message: string) => {
     PushNotification.localNotification({
@@ -132,8 +144,8 @@ const RootScreen = () => {
                   ? 'dark-content'
                   : 'light-content'
                 : setting.themeColor === ThemeKey.Light
-                  ? 'dark-content'
-                  : 'light-content'
+                ? 'dark-content'
+                : 'light-content'
             }
             backgroundColor="transparent"
             translucent={true}
