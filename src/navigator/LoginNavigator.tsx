@@ -2,7 +2,7 @@ import {
   CardStyleInterpolators,
   createStackNavigator,
 } from '@react-navigation/stack';
-import {LoginStackName, LoginStackParamList} from './types';
+import { LoginStackName, LoginStackParamList } from './types';
 import React from 'react';
 import WelcomeScreen from '../screens/Authentication/WelcomeScreen';
 import SignInScreen from '../screens/Authentication/SignInScreen';

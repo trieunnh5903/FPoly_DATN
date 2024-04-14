@@ -1,10 +1,13 @@
-import { CardStyleInterpolators, StackNavigationOptions } from "@react-navigation/stack";
+import {
+  CardStyleInterpolators,
+  StackNavigationOptions,
+} from '@react-navigation/stack';
 
 export const defaultOptions: StackNavigationOptions = {
   headerShown: false,
   gestureEnabled: true,
   cardOverlayEnabled: true,
-  cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS
+  cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
 };
 
 export const cardBottomSheetStyleOptions: StackNavigationOptions = {

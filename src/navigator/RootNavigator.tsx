@@ -2,34 +2,36 @@ import {
   CardStyleInterpolators,
   createStackNavigator,
 } from '@react-navigation/stack';
-import {RootStackName, RootStackParamList} from './types';
-import {RootBottomTabs} from './RootBottomTabs';
-import {LoginNavigator} from './LoginNavigator';
-import {useNavigation} from '@react-navigation/native';
+import { RootStackName, RootStackParamList } from './types';
+import { RootBottomTabs } from './RootBottomTabs';
+import { LoginNavigator } from './LoginNavigator';
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import {SplashScreen} from '@screens/SplashScreen/SplashScreen';
-import {TermsAndAgreementScreen} from '@screens/Authentication/TermsAndAgreementScreen';
-import {ArtDesignIcons} from '@utils/utils';
+import { SplashScreen } from '@screens/SplashScreen/SplashScreen';
+import { TermsAndAgreementScreen } from '@screens/Authentication/TermsAndAgreementScreen';
+import { ArtDesignIcons } from '@utils/utils';
 import PersonalInfo from '@screens/Setting/children/PersonalInfo';
 import ChangePassword from '@screens/Setting/children/ChangePassword';
-import {SearchScreen} from '@screens/Search/SearchScreen';
+import { SearchScreen } from '@screens/Search/SearchScreen';
 import DetailScreen from '@screens/Detail/DetailScreen';
 import NotificationBooks from '@screens/NotificationBooks/NotificationBooks';
 import ExploreGenreScreen from '@screens/Genre/ExploreGenreScreen';
 import PaymentMenthodsScreen from '@screens/Setting/children/PaymentMenthodsScreen';
 import Notification from '@screens/Setting/children/Notification';
-import {Security} from '@screens/Setting/children/Security';
+import { Security } from '@screens/Setting/children/Security';
 import Preferences from '@screens/Setting/children/Preferences';
 import ReadBookScreen from '@screens/ReadBook/ReadbookScreen';
 import AboutThisBook from '@screens/AboutThisBook/AboutThisBook';
 import AboutBookSetting from '@screens/Setting/children/AboutBookSetting';
-import {TouchableOpacity} from 'react-native-gesture-handler';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 import UpdatePersonalInfo from '@screens/Setting/children/UpdatePersonalInfo';
-import {cardBottomSheetStyleOptions, defaultOptions} from '@navigator/options';
+import {
+  cardBottomSheetStyleOptions,
+  defaultOptions,
+} from '@navigator/options';
 import AddNewPaymentScreen from '@screens/PurchaseEbook/AddNewPaymentScreen';
 import SelectPaymentMethodScreen from '@screens/PurchaseEbook/SelectPaymentMethodScreen';
 import ReviewSummaryScreen from '@screens/PurchaseEbook/ReviewSummaryScreen';
-// import AddPaymentMentthodScreen from '@screens/Setting/children/AddPaymentMentthodScreen';
 import LanguageSetting from '@screens/Setting/children/LanguageSetting';
 import HelpCenter from '@screens/Setting/children/HelpCenter';
 import AddPaymentMentthodScreen from '@screens/Setting/children/AddPaymentMentthodScreen';
@@ -76,7 +78,7 @@ export const RootNavigator = () => {
                 onPress={() => {
                   navigation.goBack();
                 }}
-                style={{marginHorizontal: 24}}>
+                style={{ marginHorizontal: 24 }}>
                 <ArtDesignIcons name="caretup" size={24} color={'#000'} />
               </TouchableOpacity>
             );
@@ -132,7 +134,6 @@ export const RootNavigator = () => {
       <RootStack.Screen
         name={RootStackName.ReadbookScreen}
         component={ReadBookScreen}
-        // options={defaultOptions}
       />
       <RootStack.Screen
         name={RootStackName.RatingsAndReviewEbookScreen}
@@ -169,8 +170,7 @@ export const RootNavigator = () => {
         component={AddNewPaymentScreen}
         options={defaultOptions}
       />
-      {/* name={RootStackName.AddPaymeenScreen}
-        component={AddPaymentMentthodScreen} /> */}
+
       <RootStack.Screen
         name={RootStackName.languageSettingScreen}
         component={LanguageSetting}

@@ -1,10 +1,10 @@
-import {BottomTabScreenProps} from '@react-navigation/bottom-tabs';
-import {CompositeScreenProps} from '@react-navigation/native';
+import { BottomTabScreenProps } from '@react-navigation/bottom-tabs';
+import { CompositeScreenProps } from '@react-navigation/native';
 import {
   NativeStackNavigationProp,
   NativeStackScreenProps,
 } from '@react-navigation/native-stack';
-import {StackScreenProps} from '@react-navigation/stack';
+import { StackScreenProps } from '@react-navigation/stack';
 
 export enum RootStackName {
   SplashScreen = 'SplashScreen',
@@ -56,7 +56,7 @@ export type RootStackParamList = {
         filter?: string;
       }
     | undefined;
-  [RootStackName.EbookScreenDetail]: {ebookId: string};
+  [RootStackName.EbookScreenDetail]: { ebookId: string };
   [RootStackName.NotificationScreen]: undefined;
   [RootStackName.ExploreGenreScreen]: undefined;
   [RootStackName.EditAccountScreen]: undefined;
@@ -67,7 +67,7 @@ export type RootStackParamList = {
   [RootStackName.PreferencesSettingScreen]: undefined;
   [RootStackName.HelpCenterScreen]: undefined;
   [RootStackName.FilterScreen]: undefined;
-  [RootStackName.ReadbookScreen]: {ebookId: string};
+  [RootStackName.ReadbookScreen]: { ebookId: string };
   [RootStackName.RatingsAndReviewEbookScreen]: {
     bookId: string;
     rating: TBookRating;
@@ -84,8 +84,8 @@ export type RootStackParamList = {
   [RootStackName.UpdatePersonalInfo]: undefined;
   [RootStackName.AddPaymentMentthodScreen]: undefined;
   [RootStackName.WriteAReview]: undefined;
-  [RootStackName.GenreScreen]: {id: string; title: string};
-  [RootStackName.DestinationScreen]: {title: string; dataKey: string};
+  [RootStackName.GenreScreen]: { id: string; title: string };
+  [RootStackName.DestinationScreen]: { title: string; dataKey: string };
   [RootStackName.RecommedForYouScreen]: undefined;
 };
 
@@ -121,7 +121,7 @@ export enum RootBottomTabsStackName {
 }
 
 export type RootBottomTabsParamList = {
-  [RootBottomTabsStackName.HomeBottomTabScreen]: {id: string; title: string};
+  [RootBottomTabsStackName.HomeBottomTabScreen]: { id: string; title: string };
   [RootBottomTabsStackName.DiscoverBottomTabScreen]: undefined;
   [RootBottomTabsStackName.WishlistBottomTabScreen]: undefined;
   [RootBottomTabsStackName.PurchasedBottomTabScreen]: undefined;
