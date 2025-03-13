@@ -2,7 +2,7 @@
 
 Figma: https://www.figma.com/design/4AOgfQNTFik9sGfmSRcmRF/Erabook---Ebook-Store-%26-Reader-App-UI-Kit-(Preview)?node-id=2227-16154&t=PstrGVzPKIOsnzeI-1
 
-## Screenshort
+## Some screenshots
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1a760d4d-d0c6-49d4-92df-b2a7184f9ca6" width="200">
   <img src="https://github.com/user-attachments/assets/34872b9c-366c-465f-bc1d-6479c670fb31" width="200">
