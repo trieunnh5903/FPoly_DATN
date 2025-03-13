@@ -1,5 +1,6 @@
 # Erabook-app
 
+Figma: https://www.figma.com/design/4AOgfQNTFik9sGfmSRcmRF/Erabook---Ebook-Store-%26-Reader-App-UI-Kit-(Preview)?node-id=2227-16154&t=PstrGVzPKIOsnzeI-1
 
 ## Getting started
 
