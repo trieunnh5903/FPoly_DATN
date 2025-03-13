@@ -2,6 +2,16 @@
 
 Figma: https://www.figma.com/design/4AOgfQNTFik9sGfmSRcmRF/Erabook---Ebook-Store-%26-Reader-App-UI-Kit-(Preview)?node-id=2227-16154&t=PstrGVzPKIOsnzeI-1
 
+## Screenshort
+![vlcsnap-2025-03-13-12h30m40s496](https://github.com/user-attachments/assets/1a760d4d-d0c6-49d4-92df-b2a7184f9ca6)
+![vlcsnap-2025-03-13-12h30m53s121](https://github.com/user-attachments/assets/34872b9c-366c-465f-bc1d-6479c670fb31)
+![vlcsnap-2025-03-13-12h26m25s192](https://github.com/user-attachments/assets/4b9f3cdb-dccd-4372-b905-038c639b6b8d)
+![vlcsnap-2025-03-13-12h27m01s370](https://github.com/user-attachments/assets/c395a1be-c37f-4a7b-a787-a82bfa2f242a)
+![vlcsnap-2025-03-13-12h30m29s891](https://github.com/user-attachments/assets/1875fbe4-0d44-455c-a66f-e6539fcaa90b)
+![vlcsnap-2025-03-13-12h30m07s776](https://github.com/user-attachments/assets/30aabf1a-0e53-4b8d-9a9f-f861b72cca86)
+![vlcsnap-2025-03-13-12h28m26s225](https://github.com/user-attachments/assets/2d41dbfb-029b-4b73-8280-2cbb11e906cd)
+![vlcsnap-2025-03-13-12h27m27s558](https://github.com/user-attachments/assets/b902b6d7-2efa-4e1b-94fb-95de4e241ac2)
+
 ## Getting started
 
 
