@@ -4,14 +4,14 @@ Figma: https://www.figma.com/design/4AOgfQNTFik9sGfmSRcmRF/Erabook---Ebook-Store
 
 ## Screenshort
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1a760d4d-d0c6-49d4-92df-b2a7184f9ca6" width="300">
-  <img src="https://github.com/user-attachments/assets/34872b9c-366c-465f-bc1d-6479c670fb31" width="300">
-  <img src="https://github.com/user-attachments/assets/4b9f3cdb-dccd-4372-b905-038c639b6b8d" width="300">
-  <img src="https://github.com/user-attachments/assets/c395a1be-c37f-4a7b-a787-a82bfa2f242a" width="300">
-  <img src="https://github.com/user-attachments/assets/1875fbe4-0d44-455c-a66f-e6539fcaa90b" width="300">
-  <img src="https://github.com/user-attachments/assets/30aabf1a-0e53-4b8d-9a9f-f861b72cca86" width="300">
-  <img src="https://github.com/user-attachments/assets/2d41dbfb-029b-4b73-8280-2cbb11e906cd" width="300">
-  <img src="https://github.com/user-attachments/assets/b902b6d7-2efa-4e1b-94fb-95de4e241ac2" width="300">
+  <img src="https://github.com/user-attachments/assets/1a760d4d-d0c6-49d4-92df-b2a7184f9ca6" width="250">
+  <img src="https://github.com/user-attachments/assets/34872b9c-366c-465f-bc1d-6479c670fb31" width="250">
+  <img src="https://github.com/user-attachments/assets/4b9f3cdb-dccd-4372-b905-038c639b6b8d" width="250">
+  <img src="https://github.com/user-attachments/assets/c395a1be-c37f-4a7b-a787-a82bfa2f242a" width="250">
+  <img src="https://github.com/user-attachments/assets/1875fbe4-0d44-455c-a66f-e6539fcaa90b" width="250">
+  <img src="https://github.com/user-attachments/assets/30aabf1a-0e53-4b8d-9a9f-f861b72cca86" width="250">
+  <img src="https://github.com/user-attachments/assets/2d41dbfb-029b-4b73-8280-2cbb11e906cd" width="250">
+  <img src="https://github.com/user-attachments/assets/b902b6d7-2efa-4e1b-94fb-95de4e241ac2" width="250">
 </p>
 ## Getting started
 
